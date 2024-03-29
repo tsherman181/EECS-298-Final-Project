@@ -3,20 +3,14 @@ Dataset: ACSPUMS1Y2022
 
 Variables: 
 QTRBIR - Quarter of birth
-NOC - Number of own children in household (unweighted)
-WGTP - Housing Unit Weight
 SEX - Sex
 JWTRNS - Means of transportation to work
-CPLT - Couple Type
 COW - Class of worker
-HHL - Household language
 AGEP - Age
 RAC1P - Recoded detailed race code
 SCHL - Educational attainment
 PWGTP - PUMS person weight
 PERNP - Total person's earnings (use ADJINC to adjust to constant dollars)
-TEN - Tenure
-
 
 QTRBIR - Quarter of birth
 Topics: 
@@ -29,27 +23,6 @@ Values:
 2 - April through June
 3 - July through September
 4 - October through December
-
-NOC - Number of own children in household (unweighted)
-Topics: 
-Children
-Families and Household Characteristics
-Family Size and Type
-Suggested Weight : WGTP
-Description : 
-Number of own children in household (unweighted)
-Values: 
--1 - N/A(GQ/vacant)
-00 - No own children
-1,19 - Number of own children in household
-
-WGTP - Housing Unit Weight
-Topics: 
-Description : 
-Housing Unit Weight
-Values: 
-0 - Group quarters place holder record
-1,9999 - Integer weight of housing unit
 
 SEX - Sex
 Topics: 
@@ -67,15 +40,7 @@ Topics:
 Commuting
 Suggested Weight : PWGTP
 Description : 
-
-		
-		
-			
-			
-			
-		
-		Means of transportation to work
-	
+Means of transportation to work
 Values: 
 0 - N/A (not a worker-not in the labor force, including persons under 16 years; unemployed; employed, with a job but not at work; Armed Forces, with a job but not at work)
 01 - Car, truck, or van
@@ -90,27 +55,6 @@ Values:
 10 - Walked
 11 - Worked from home
 12 - Other method
-
-CPLT - Couple Type
-Topics: 
-Same Sex Couples
-Suggested Weight : WGTP
-Description : 
-
-		
-		
-			
-			
-			
-		
-		Couple Type
-	
-Values: 
-0 - N/A (GQ/vacant/non-couple households)
-1 - Opposite-sex husband/wife/spouse household
-2 - Same-sex husband/wife/spouse household
-3 - Opposite-sex unmarried partner household
-4 - Same-sex unmarried partner household
 
 COW - Class of worker
 Topics: 
@@ -129,21 +73,6 @@ Values:
 7 - Self-employed in own incorporated business, professional practice or farm
 8 - Working without pay in family business or farm
 9 - Unemployed and last worked 5 years ago or earlier or never worked
-
-HHL - Household language
-Topics: 
-Language Spoken at Home
-Native and Foreign Born
-Suggested Weight : WGTP
-Description : 
-Household language
-Values: 
-0 - N/A (GQ/vacant)
-1 - English Only
-2 - Spanish
-3 - Other Indo-European languages
-4 - Asian and Pacific Island languages
-5 - Other Language
 
 AGEP - Age
 Topics: 
@@ -224,22 +153,6 @@ Values:
 0 - No earnings
 -9999,-1 - Loss $1 to $9999 (Rounded components)
 1,1999998 - $1 to $1999998 (Rounded and top-coded components)
-
-TEN - Tenure
-Topics: 
-Housing
-Housing Units
-Owner/Renter (Tenure)
-Suggested Weight : WGTP
-Description : 
-Tenure
-Values: 
-0 - N/A  (GQ/vacant)
-1 - Owned with mortgage or loan (include home equity loans)
-2 - Owned Free And Clear
-3 - Rented
-4 - Occupied without payment of rent
-
 
 
 Selected Geographies (ucgid): 
